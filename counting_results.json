@@ -1,0 +1,69 @@
+{
+  "total_count": 10,
+  "class_counts": {
+    "motorcycle": 10
+  },
+  "count_log": [
+    {
+      "timestamp": 33.03603529930115,
+      "class": "motorcycle",
+      "track_id": 9,
+      "total_count": 1
+    },
+    {
+      "timestamp": 33.38301396369934,
+      "class": "motorcycle",
+      "track_id": 1,
+      "total_count": 2
+    },
+    {
+      "timestamp": 36.48889446258545,
+      "class": "motorcycle",
+      "track_id": 2,
+      "total_count": 3
+    },
+    {
+      "timestamp": 46.96493649482727,
+      "class": "motorcycle",
+      "track_id": 43,
+      "total_count": 4
+    },
+    {
+      "timestamp": 50.10994601249695,
+      "class": "motorcycle",
+      "track_id": 50,
+      "total_count": 5
+    },
+    {
+      "timestamp": 52.51702308654785,
+      "class": "motorcycle",
+      "track_id": 90,
+      "total_count": 6
+    },
+    {
+      "timestamp": 65.6413061618805,
+      "class": "motorcycle",
+      "track_id": 110,
+      "total_count": 7
+    },
+    {
+      "timestamp": 66.69629168510437,
+      "class": "motorcycle",
+      "track_id": 97,
+      "total_count": 8
+    },
+    {
+      "timestamp": 67.04949188232422,
+      "class": "motorcycle",
+      "track_id": 112,
+      "total_count": 9
+    },
+    {
+      "timestamp": 80.76127648353577,
+      "class": "motorcycle",
+      "track_id": 161,
+      "total_count": 10
+    }
+  ],
+  "processing_time": 81.93782424926758
+}
