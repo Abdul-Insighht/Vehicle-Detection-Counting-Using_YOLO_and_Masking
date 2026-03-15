@@ -1,129 +1,87 @@
-# 🚗 Vehicle Detection & Counting Using YOLO and Masking
+﻿<div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Vehicle%20Detection%20Counting%20Using_YOLO_and_Masking&fontSize=32&fontColor=ffffff&animation=twinkling&fontAlignY=35"/>
+</div>
 
-<p align="center">
-  <img src="outputs/sample_detection.png" alt="Vehicle Detection" width="800"/>
-</p>
+# Vehicle-Detection-Counting-Using_YOLO_and_Masking
 
-A smart vehicle detection and counting system that uses **YOLOv8 + OpenCV** to detect, track, and count vehicles in a specific masked region of a video.
-
----
-
-## 🎯 Results
-
-| Metric | Value |
-|--------|-------|
-| **Detection Accuracy** | 95%+ |
-| **Counting Accuracy** | 98%+ |
-| **Supported Vehicles** | Cars, Trucks, Buses, Motorcycles |
-| **Multi-Object Tracking** | ✓ Unique IDs |
-| **Real-time Processing** | ✓ |
-
-### Sample Output
-
-The system provides:
-- 🟢 **Bounding Boxes**: Around detected vehicles
-- 🔢 **Unique IDs**: For persistent tracking
-- 📊 **Vehicle Count**: Real-time counting at custom line
-- 📁 **JSON Export**: Detailed counting logs
+Vehicle detection and counting system using YOLO with polygon masking for region-specific traffic analysis.
 
 ---
 
-## ✨ Key Features
+## Project Status: âœ… COMPLETE & READY FOR DEPLOYMENT
 
-- **Region-Focused Detection**: Detects vehicles only inside the masked region
-- **Unique ID Tracking**: Tracks each vehicle with persistent IDs
-- **Custom Counting Line**: Counts vehicles crossing a configurable line
-- **Live Annotations**: Shows annotated video with bounding boxes and IDs
-- **Export Results**: Saves output video and JSON file with counts
-- **Efficient Processing**: Optimized using YOLOv8 and OpenCV
+![GitHub stars](https://img.shields.io/github/stars/Abdul-Insighht/=social)
+![GitHub forks](https://img.shields.io/github/forks/Abdul-Insighht/=social)
 
 ---
 
-## 🛠️ Tech Stack
+## ðŸ› ï¸ Tech Stack
 
-| Category | Technology |
-|----------|------------|
-| **Object Detection** | YOLOv8 |
-| **Computer Vision** | OpenCV |
-| **Deep Learning** | PyTorch |
-| **Tracking** | Custom tracker |
-| **Environment** | Python 3.11, Conda |
+```
+Python, YOLO, OpenCV, NumPy, Ultralytics
+```
 
 ---
 
-## 🚀 Installation
+## ðŸš€ Getting Started
 
+1. **Clone the repository**
 ```bash
-# Clone the repository
 git clone https://github.com/Abdul-Insighht/Vehicle-Detection-Counting-Using_YOLO_and_Masking.git
 cd Vehicle-Detection-Counting-Using_YOLO_and_Masking
+```
 
-# Create conda environment
-conda create -n ob_detect python=3.11 -y
-conda activate ob_detect
-
-# Install PyTorch first
-pip install torch torchvision torchaudio
-
-# Install other dependencies
+2. **Install dependencies**
+```bash
 pip install -r requirements.txt
 ```
 
-Or run the setup script:
+3. **Run the project**
 ```bash
-bash setup.sh
-```
-
-## 📝 Usage
-
-```bash
-# Run the detector
-python app.py --video path/to/video.mp4
-
-# Or use the deep learning script
-python deep.py
+python main.py
 ```
 
 ---
 
-## 📦 Use Cases
+## â­ Quick Links
 
-- 🚦 **Traffic Monitoring**: Count vehicles at intersections
-- 🅿️ **Parking Management**: Track parking lot occupancy
-- 🏙️ **Smart Cities**: Urban traffic analytics
-- 📹 **Video Analytics**: Focused area detection
+â­ [Star this repo](https://github.com/Abdul-Insighht/Vehicle-Detection-Counting-Using_YOLO_and_Masking) â€¢ ðŸ› [Report Bug](https://github.com/Abdul-Insighht/Vehicle-Detection-Counting-Using_YOLO_and_Masking/issues) â€¢ ðŸ’¡ [Request Feature](https://github.com/Abdul-Insighht/Vehicle-Detection-Counting-Using_YOLO_and_Masking/issues)
 
 ---
 
-## 📁 Output Files
-
-| File | Description |
-|------|-------------|
-| `output_video.mp4` | Annotated video with detections |
-| `counting_results.json` | Detailed vehicle counts and timestamps |
+Made with â¤ï¸ using Python & AI Technologies â€” Demonstration by **Abdul-Insighht** - Data Science Specialist | AI Agent & Agentic AI Developer
 
 ---
 
-## 📬 Contact
+## ðŸ‘¤ Author
 
-**Hafiz Abdul Rehman**
+<table>
+<tr>
+<td>
 
-- 📧 Email: hafizrehman3321@gmail.com
-- 💼 LinkedIn: [Hafiz Abdul Rehman](https://linkedin.com/in/hafiz-abdul-rehman-9990ab329)
-- 🐙 GitHub: [Abdul-Insighht](https://github.com/Abdul-Insighht)
+**Hafiz Abdul Rehman**  
+[Abdul-Insighht](https://github.com/Abdul-Insighht) Â· he/him  
+**Data Science Specialist | AI Agent & Agentic AI Developer**
 
----
+[![GitHub](https://img.shields.io/badge/GitHub-Abdul--Insighht-181717?style=flat-square&logo=github)](https://github.com/Abdul-Insighht)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/hafiz-abdul-rehman-9990ab329/)
 
-## 🌟 Show Your Support
-
-If you find this project helpful, please consider:
-
-- ⭐ **Starring** this repository
-- 🔄 **Sharing** with others
-- 🐛 **Reporting** issues
-- 💡 **Suggesting** improvements
+</td>
+</tr>
+</table>
 
 ---
 
-<p align="center">Made with ❤️ by <b>Hafiz Abdul Rehman</b></p>
-<p align="center">🚗 Automating vehicle identification with AI and computer vision</p>
+## ðŸ“„ License
+
+This project is licensed under the **MIT License**.
+
+---
+
+<div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer"/>
+</div>
+
+<div align="center">
+  <sub>â­ï¸ From <a href="https://github.com/Abdul-Insighht">Abdul-Insighht</a> â€” Passionate about AI, ML, and solving real-world problems</sub>
+</div>
